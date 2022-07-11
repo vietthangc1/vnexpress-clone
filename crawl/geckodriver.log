@@ -1,0 +1,58 @@
+1657548890862	geckodriver	INFO	Listening on 127.0.0.1:49356
+1657548914576	geckodriver	INFO	Listening on 127.0.0.1:49744
+1657548932764	geckodriver	INFO	Listening on 127.0.0.1:49777
+1657548938594	geckodriver	INFO	Listening on 127.0.0.1:49805
+1657551844500	geckodriver	INFO	Listening on 127.0.0.1:53112
+1657551847569	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53113" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pvtha\\AppData\\Local\\Temp\\rust_mozprofileDknNe5"
+1657551848174	Marionette	INFO	Marionette enabled
+1657551848180	Marionette	INFO	Listening on port 53127
+WebDriver BiDi listening on ws://localhost:53113
+Read port: 53127
+1657551848340	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pvtha\\AppData\\Local\\Temp\\rust_mozprofileDknNe5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53113/devtools/browser/84219e4b-a19a-4e62-a43d-fda331a1536e
+JavaScript error: https://vnexpress.net/, line 105: ReferenceError: js_url_vne is not defined
+1657551850534	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x-7aydTzyDGf5pB5jP33n95ytuiMcqG17W4hZ3yQxPE.js line 2 > eval line 3057 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x-7aydTzyDGf5pB5jP33n95ytuiMcqG17W4hZ3yQxPE.js line 2 > eval line 5065 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://vnexpress.net/nhieu-nguoi-bat-ngo-hoai-tu-so-va-ham-mat-sau-mac-covid-4486396.html, line 98: ReferenceError: js_url_vne is not defined
+1657551881915	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://s1.vnecdn.net/vnexpress/restruct/j/v3517/v3/production/blocks/detail/1005225.js, line 1: TypeError: document.querySelector(...) is null
+JavaScript error: https://s1.vnecdn.net/vnexpress/restruct/j/v3517/v3/production/blocks/detail/1003450.js, line 1: TypeError: document.querySelector(...) is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x-7aydTzyDGf5pB5jP33n95ytuiMcqG17W4hZ3yQxPE.js line 2 > eval line 6723 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x-7aydTzyDGf5pB5jP33n95ytuiMcqG17W4hZ3yQxPE.js line 2 > eval line 2069 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://s1.vnecdn.net/vnexpress/restruct/j/v3517/v3/production/blocks/detail/1005225.js, line 1: TypeError: document.querySelector(...) is null
+JavaScript error: https://s1.vnecdn.net/vnexpress/restruct/j/v3517/v3/production/blocks/detail/1003450.js, line 1: TypeError: document.querySelector(...) is null
+JavaScript error: https://octopus-stream01-cads.fpt.vn/cdp.js, line 8: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x-7aydTzyDGf5pB5jP33n95ytuiMcqG17W4hZ3yQxPE.js line 2 > eval line 4678 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://s1.vnecdn.net/vnexpress/restruct/j/v3517/v3/production/blocks/detail/1005225.js, line 1: TypeError: document.querySelector(...) is null
+JavaScript error: https://s1.vnecdn.net/vnexpress/restruct/j/v3517/v3/production/blocks/detail/1003450.js, line 1: TypeError: document.querySelector(...) is null
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x-7aydTzyDGf5pB5jP33n95ytuiMcqG17W4hZ3yQxPE.js line 2 > eval line 6690 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://s1.vnecdn.net/vnexpress/restruct/j/v3517/v3/production/blocks/detail/1005225.js, line 1: TypeError: document.querySelector(...) is null
+JavaScript error: https://s1.vnecdn.net/vnexpress/restruct/j/v3517/v3/production/blocks/detail/1003450.js, line 1: TypeError: document.querySelector(...) is null
+JavaScript error: https://s.eclick.vn/delivery/asset/331277281/ads_impl.js, line 31: SecurityError: Permission denied to access property "pageXOffset" on cross-origin object
+JavaScript error: https://s.eclick.vn/delivery/asset/331277281/ads_impl.js, line 31: SecurityError: Permission denied to access property "pageXOffset" on cross-origin object
+JavaScript error: https://s.eclick.vn/delivery/asset/331277281/ads_impl.js, line 31: SecurityError: Permission denied to access property "pageXOffset" on cross-origin object
+JavaScript error: https://octopus-stream01-cads.fpt.vn/cdp.js, line 8: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://s.vnecdn.net/vnexpress/restruct/j/v789/interactions/parser_v3.js, line 9: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x-7aydTzyDGf5pB5jP33n95ytuiMcqG17W4hZ3yQxPE.js line 2 > eval line 3769 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657552335202	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N3FNJF, line 298: TypeError: X(...).clearInterval is not a function
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N3FNJF, line 298: TypeError: X(...).clearInterval is not a function
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N3FNJF, line 298: TypeError: X(...).clearInterval is not a function
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N3FNJF, line 298: TypeError: X(...).clearInterval is not a function
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N3FNJF, line 298: TypeError: X(...).clearInterval is not a function
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N3FNJF, line 298: TypeError: X(...).clearInterval is not a function
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N3FNJF, line 298: TypeError: X(...).clearInterval is not a function
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N3FNJF, line 298: TypeError: X(...).clearInterval is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x-7aydTzyDGf5pB5jP33n95ytuiMcqG17W4hZ3yQxPE.js line 2 > eval line 2814 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://vnexpress.net/nhin-an-gian-doan-rui-ro-the-nao-4486382.html, line 99: ReferenceError: js_url_vne is not defined
+1657552405958	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://s1.vnecdn.net/vnexpress/restruct/j/v3517/v3/production/blocks/detail/1005249.js, line 1: TypeError: document.querySelector(...) is null
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x-7aydTzyDGf5pB5jP33n95ytuiMcqG17W4hZ3yQxPE.js line 2 > eval line 5644 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657558901206	Marionette	INFO	Stopped listening on port 53127
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
