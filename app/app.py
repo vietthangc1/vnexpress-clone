@@ -1,13 +1,11 @@
 import json
 from flask import Flask, render_template, request
 import uuid
-from module import search
+from module import search, get_articles
 
 app = Flask(__name__)
 
-f = open("./data/article.json", "r", encoding='utf-8')
-articles = json.load(f)
-f.close()
+articles = get_articles()
 
 for article in articles:
   article['_id'] = uuid.uuid4().hex
