@@ -1,30 +1,26 @@
-import json
 from flask import Flask, render_template, request
-import uuid
-from module import search, get_articles
+from pymongo import MongoClient
+import urllib
+from bson.objectid import ObjectId
 
 app = Flask(__name__)
 
-articles = get_articles()
-
-for article in articles:
-  article['_id'] = uuid.uuid4().hex
+client = MongoClient("mongodb+srv://vietthangc1:"+urllib.parse.quote_plus('f2bdx@*-uLAZz!f')+"@cluster0.le7ea.mongodb.net/test")
+app.db = client.vnexpress
+articles = app.db.articles.find({})
 
 @app.route("/", methods = ['GET', 'POST'])
 def index():
+  articles = app.db.articles.find({})
   if request.method == "POST":
     keyword = request.form.get("th_search")
-    list_article = search(keyword, articles)
+    list_article = app.db.articles.find({"title": {"$in": keyword}})
     return render_template('index.html', th_articles = list_article)
   return render_template('index.html', th_articles = articles)
 
 @app.route("/article/<id>")
 def article(id):
-  article = {}
-  for art in articles:
-    if art['_id'] == id:
-      article = art
-      break
+  article = app.db.articles.find({"_id": ObjectId(id)})[0]
   return render_template("article.html", th_article = article)
 
 

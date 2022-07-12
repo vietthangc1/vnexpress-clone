@@ -20,9 +20,6 @@
 
       <div class="article">
         <div class="row">
-          {% if th_articles|length == 0 %}
-          <p>No articles</p>
-          {% else %}
           {% for article in th_articles %}
           <div class="col-xs-1 col-sm-6 col-md-4 col-lg-3">
             <div class="card card__height">
@@ -33,7 +30,6 @@
             </div>
           </div>
           {% endfor %}
-          {% endif %}
       </div>
 
 

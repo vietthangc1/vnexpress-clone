@@ -56,3 +56,22 @@ JavaScript error: , line 0: uncaught exception: undefined
 JavaScript warning: https://pagead2.googlesyndication.com/bg/x-7aydTzyDGf5pB5jP33n95ytuiMcqG17W4hZ3yQxPE.js line 2 > eval line 5644 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1657558901206	Marionette	INFO	Stopped listening on port 53127
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1657629177775	geckodriver	INFO	Listening on 127.0.0.1:63245
+1657629180811	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63246" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pvtha\\AppData\\Local\\Temp\\rust_mozprofileclc9gk"
+1657629181432	Marionette	INFO	Marionette enabled
+1657629181438	Marionette	INFO	Listening on port 63255
+WebDriver BiDi listening on ws://localhost:63246
+Read port: 63255
+1657629181584	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pvtha\\AppData\\Local\\Temp\\rust_mozprofileclc9gk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63246/devtools/browser/a6e2ac68-a27e-4ccf-a687-837601359acd
+JavaScript error: https://vnexpress.net/, line 105: ReferenceError: js_url_vne is not defined
+1657629184482	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ScuHrLJSuMz-P8UpD_WVXyUZt188tH6pyCCWmvqBSxI.js line 2 > eval line 2905 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://s1.vnecdn.net/vnexpress/restruct/j/v3519/v3/production/blocks/detail/1003450.js, line 1: TypeError: document.querySelector(...) is null
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+1657629222800	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: undefined
