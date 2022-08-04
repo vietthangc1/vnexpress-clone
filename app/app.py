@@ -1,14 +1,9 @@
-from flask import Flask, render_template, request
-from pymongo import MongoClient
-import urllib
+from flask import render_template, request
 from bson.objectid import ObjectId
+import pymongo
+from . import create_app
 
-app = Flask(__name__)
-
-client = MongoClient("mongodb+srv://vietthangc1:"+urllib.parse.quote_plus('f2bdx@*-uLAZz!f')+"@cluster0.le7ea.mongodb.net/test")
-app.db = client.vnexpress
-articles = app.db.articles.find({})
-
+app = create_app()
 @app.route("/", methods = ['GET', 'POST'])
 def index():
   articles = app.db.articles.find({})
@@ -22,7 +17,6 @@ def index():
 def article(id):
   article = app.db.articles.find({"_id": ObjectId(id)})[0]
   return render_template("article.html", th_article = article)
-
 
 if __name__ == '__main__':
   app.run(debug = True)
